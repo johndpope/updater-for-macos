@@ -21,10 +21,7 @@ gem update --system
 gem update
 gem cleanup
 
-echo
-echo "- Updating \"apm\" -"
-apm update --no-confirm
-apm clean
+
 
 END_DATE=$(date +"%d.%m.%Y | %H:%M:%S")
 echo
